@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>figma-site</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="page">
+    <div class="page__first-screen">
+        <header class="header">
+            <div class="page__container">
+                <div class="header__wrapper">
+                    <a href="index.html" class="logo">
+                        <img class="logo__img" src="images/header-logo.png" alt="logo">
+                        <span class="logo__text">Creative <br> Tim</span>
+                    </a>
+                    <div class="header__menu">
+                        <a href="#" class="header__item">
+                            <img class="header__icon" src="images/icons/header-menu-components.png" alt="icon">
+                            Components
+                        </a>
+                        <a href="#" class="header__item">
+                            <img class="header__icon" src="images/icons/header-menu-download.png" alt="icon">
+                            Download
+                        </a>
+                        <a href="#" class="header__item">
+                            <img class="header__icon" src="images/icons/header-menu-twitter.png" alt="icon">
+                        </a>
+                        <a href="#" class="header__item">
+                            <img class="header__icon" src="images/icons/header-menu-facebook.png" alt="icon">
+                        </a>
+                        <a href="#" class="header__item">
+                            <img class="header__icon" src="images/icons/header-menu-instagram.png" alt="icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="page__content">
+        <div class="page__container">
+            <h2 class="page__main-title title page__main-title--elements">Basic Elements</h2>
+            <div class="page__section mb_47">
+                <h3>Buttons</h3>
+                <div class="page__specifications mb_54">
+                    <h4 class="page__specifications-title">Pick your style</h4>
+                    <div class="page__box ml_202">
+                        <div class="button button--primary mr_6">Default</div>
+                        <div class="button button--primary button--round mr_6">Round</div>
+                        <div class="button button--round button--text-icon mr_6">With icon</div>
+                        <div class="button button--only-icon mr_6"><img class="button-icon" src="images/icons/heart.png"
+                                                                        alt="icon"></div>
+                        <div class="button button--transparent">Simple</div>
+                    </div>
+                </div>
+                <div class="page__specifications mb_54">
+                    <h4 class="page__specifications-title">Pick your size</h4>
+                    <div class="page__box ml_202">
+                        <div class="button button--primary button--x-small mr_6">X-small</div>
+                        <div class="button button--primary button--small mr_6">Small</div>
+                        <div class="button button--primary mr_6">Regular</div>
+                        <div class="button button--primary button--large">Large</div>
+                    </div>
+                </div>
+                <div class="page__specifications">
+                    <h4 class="page__specifications-title">Pick your color</h4>
+                    <div class="page__box ml_202">
+                        <div class="button mr_6">Default</div>
+                        <div class="button button--primary mr_6">Primary</div>
+                        <div class="button button--info mr_6">Info</div>
+                        <div class="button button--success mr_6">Success</div>
+                        <div class="button button--warning mr_6">Warning</div>
+                        <div class="button button--danger">Danger</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="page__section mb_47">
+                <h3 class="mb_39">Links</h3>
+                <div class="page__box ml_202">
+                    <div class="link link--default mr_6">Default</div>
+                    <div class="link link--primary mr_6">Primary</div>
+                    <div class="link link--info mr_6">Info</div>
+                    <div class="link link--success mr_6">Success</div>
+                    <div class="link link--warning mr_6">Warning</div>
+                    <div class="link link--danger">Danger</div>
+                </div>
+            </div>
+            <div class="page__section">
+                <h3 class="mb_42">Inputs</h3>
+                <div class="page__input">
+                    <div class="page__holder-input">
+                        <div class="input-control mb_60">
+                            <input class="input-control__item" type="text" placeholder="Regular">
+                        </div>
+                        <div class="input-control">
+                            <label class="input-control__label"><img class="input-control__icon"
+                                                                  src="images/icons/input-logo__two-humans.png"
+                                                                  alt="input-logo"></label>
+                            <input class="input-control__item input-control__item--last" type="text"
+                                   placeholder="With material Icons">
+                        </div>
+                    </div>
+                    <div class="page__holder-input">
+                        <div class="input-control mb_60">
+                            <input class="input-control__item" type="text" placeholder="With Floating Label">
+                        </div>
+                        <div class="input-control">
+                            <label class="input-control__label"><img class="input-control__icon"
+                                                                  src="images/icons/input-logo__three-humans.png"
+                                                                  alt="input-icon"></label>
+                            <input class="input-control__item input-control__item--last" type="text"
+                                   placeholder="With Font Awesome Icons">
+                        </div>
+                    </div>
+                    <div class="page__holder-input">
+                        <div class="input-control">
+                            <input class="input-control__item input-control__item--required" type="text" pattern="[0-9]{5,10}"
+                                   required value="12345">
+                            <span class="input-control__success">Success input</span>
+                            <span class="input-control__error">Error input</span>
+                        </div>
+                    </div>
+                    <div class="page__holder-input">
+                        <div class="input-control">
+                            <input class="input-control__item input-control__item--required" type="text" pattern="[0-9]{5,10}"
+                                   required>
+                            <span class="input-control__error">Error input</span>
+                            <span class="input-control__success">Success input</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="page__input mt_118">
+                    <div>
+                        <h3 class="pb_30">Checkboxes</h3>
+                        <div class="checkbox mb_10">
+                            <input class="checkbox__item" type="checkbox">
+                            <label class="checkbox__label">Unchecked</label>
+                        </div>
+                        <div class="checkbox mb_10">
+                            <input class="checkbox__item" type="checkbox" id="checkbox">
+                            <label for="checkbox" class="checkbox__label">Checked</label>
+                        </div>
+                        <div class="checkbox mb_10">
+                            <input class="checkbox__item" type="checkbox">
+                            <label class="checkbox__label checkbox__label--disabled">Disabled Unchecked</label>
+                        </div>
+                        <div class="checkbox">
+                            <input class="checkbox__item" type="checkbox" id="checkbox-disabled">
+                            <label for="checkbox-disabled" class="checkbox__label checkbox__label--disabled">Disabled
+                                Checked</label>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="pb_30">Radio Buttons</h3>
+                        <div class="radio-button mb_8">
+                            <input class="radio-button__item" type="radio">
+                            <label class="radio-button__label">Radio is off</label>
+                        </div>
+                        <div class="radio-button mb_8">
+                            <input class="radio-button__item" type="radio" id="radio-button">
+                            <label for="radio-button" class="radio-button__label">Radio is on</label>
+                        </div>
+                        <div class="radio-button mb_8">
+                            <input class="radio-button__item" type="radio">
+                            <label class="radio-button__label radio-button__label--disabled">Disabled Radio is
+                                off</label>
+                        </div>
+                        <div class="radio-button">
+                            <input class="radio-button__item" type="radio" id="radio-button-disabled">
+                            <label for="radio-button-disabled"
+                                   class="radio-button__label radio-button__label--disabled">Disabled Radio is
+                                on</label>
+                        </div>
+
+                    </div>
+                    <div>
+                        <h3 class="pb_30">Toggle Buttons</h3>
+                        <input class="toggle-button" type="checkbox" id="toggle-on" checked>
+                        <label class="toggle-button__label on mb_12" for="toggle-on">Toggle is on</label>
+                        <input class="toggle-button" type="checkbox" id="toggle-off">
+                        <label class="toggle-button__label" for="toggle-off">Toggle is off</label>
+                    </div>
+                    <div class="input-slider">
+                        <h3 class="pb_30">Sliders</h3>
+                        <input class="input-slider__item mb_16" type="range" min="0" max="100" value="25">
+                        <input class="input-slider__item" type="range" min="0" max="100" value="25">
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="inline-title mr_463 mb_30 mt_118">Menu</h3>
+            <h3 class="inline-title mb_30 mt_118">Menu with Icons</h3>
+
+            <div class="page__menu-row">
+                    <div class="menu menu__half mr_32">
+                        <a class="menu__item menu__item--first" href="#">Menu</a>
+                        <a class="menu__item" href="#">LINK</a>
+                        <a class="menu__item" href="#">LINK</a>
+                        <select class="menu__item menu__item--select" name="menu-select" id="menu-select">
+                            <option value="">DROPDOWN</option>
+                        </select>
+                    </div>
+                    <div class="menu menu--blue menu__half">
+                        <a class="menu__item menu__item--first" href="#">Icons</a>
+                        <div class="menu__icon">
+                            <a class="menu__item menu__item--icon mr_32" href="#"><img class="menu__img"
+                                                                                       src="images/icons/menu-mail.png"
+                                                                                       alt="icon"></a>
+                            <a class="menu__item menu__item--icon mr_32" href="#"><img class="menu__img"
+                                                                                       src="images/icons/menu-head.png"
+                                                                                       alt="icon"></a>
+                            <a class="menu__item menu__item--icon " href="#"><img class="menu__img"
+                                                                                  src="images/icons/menu-gear.png"
+                                                                                  alt="icon"></a>
+                            <select class="menu__item menu__item--select-icon" name="menu-icons-select"
+                                    id="menu-icons-select">
+                            </select>
+                        </div>
+                    </div>
+            </div>
+            <h3 class="mt_58 mb_27">Navigation</h3>
+        </div>
+        <div class="page__navigation mt_10">
+            <div class="navigation navigation--primary mb_20">
+                <div class="page__container">
+                    <div class="navigation__box">
+                        <a href="index.html" class="navigation__text">
+                            <span class="navigation__text">Primary Color</span>
+                        </a>
+                        <div class="navigation__menu">
+                            <a href="#" class="navigation__item">
+                                <img class="navigation__icon" src="images/icons/kompas-icon.png" alt="icon">
+                                DISCOVER
+                            </a>
+                            <a href="#" class="navigation__item">
+                                <img class="navigation__icon" src="images/icons/profile-icon.png" alt="icon">
+                                PROFILE
+                            </a>
+                            <a href="#" class="navigation__item">
+                                <img class="navigation__icon" src="images/icons/settings-icon.png" alt="icon">
+                                SETTINGS
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation navigation--info mb_20">
+                <div class="page__container">
+                    <div class="navigation__box">
+                        <a href="index.html" class="navigation__text">
+                            <span class="navigation__text">Info Color</span>
+                        </a>
+                        <div class="navigation__menu">
+                            <a href="#" class="navigation__item">
+                                DISCOVER
+                            </a>
+                            <a href="#" class="navigation__item">
+                                PROFILE
+                            </a>
+                            <a href="#" class="navigation__item">
+                                SETTINGS
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation navigation--success mb_20">
+                <div class="page__container">
+                    <div class="navigation__box">
+                        <a href="index.html" class="navigation__text">
+                            <span class="navigation__text">Success Color</span>
+                        </a>
+                        <div class="navigation__menu">
+                            <a href="#" class="navigation__item">
+                                <img class="navigation__icon" src="images/icons/kompas-icon.png" alt="icon">
+                            </a>
+                            <a href="#" class="navigation__item">
+                                <img class="navigation__icon" src="images/icons/profile-icon.png" alt="icon">
+                            </a>
+                            <a href="#" class="navigation__item">
+                                <img class="navigation__icon" src="images/icons/settings-icon.png" alt="icon">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation navigation--warning mb_20">
+                <div class="page__container">
+                    <div class="navigation__box">
+                        <a href="index.html" class="navigation__text">
+                            <span class="navigation__text">Warning Color</span>
+                        </a>
+                        <div class="navigation__menu">
+                            <a href="#" class="navigation__item">
+                                <img class="navigation__icon" src="images/icons/ICON%20FACEBOOK.png" alt="icon">
+                            </a>
+                            <a href="#" class="navigation__item">
+                                <img class="navigation__icon" src="images/icons/ICON%20TWITTER.png" alt="icon">
+                            </a>
+                            <a href="#" class="navigation__item">
+                                <img class="navigation__icon navigation__icon--google"
+                                     src="images/icons/ICON%20GOOGLE+.png" alt="icon">
+
+                            </a>
+                            <a href="#" class="navigation__item">
+                                <img class="navigation__icon" src="images/icons/ICON%20INSTAGRAM.png" alt="icon">
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation navigation--danger mb_20">
+                <div class="page__container">
+                    <div class="navigation__box">
+                        <a href="index.html" class="navigation__text">
+                            <span class="navigation__text">Danger Color</span>
+                        </a>
+                        <div class="navigation__menu">
+                            <a href="#" class="navigation__item navigation__item--small-text">
+                                <img class="navigation__icon" src="images/icons/ICON%20FACEBOOK.png" alt="icon">
+                                SHARE
+                            </a>
+                            <a href="#" class="navigation__item navigation__item--small-text">
+                                <img class="navigation__icon" src="images/icons/ICON%20TWITTER.png" alt="icon">
+                                TWEET
+                            </a>
+                            <a href="#" class="navigation__item navigation__item--small-text">
+                                <img class="navigation__icon"
+                                     src="images/icons/ICON%20PINTEREST.png" alt="icon">
+                                PIN
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation navigation--transparent">
+                <div class="page__container">
+                    <div class="navigation__box">
+                        <a href="index.html" class="navigation__text">
+                            <span class="navigation__text">Transparent</span>
+                        </a>
+                        <div class="navigation__menu">
+                            <a href="#" class="navigation__item navigation__item--small-text">
+                                <img class="navigation__icon" src="images/icons/ICON%20FACEBOOK.png" alt="icon">
+                                FACEBOOK
+                            </a>
+                            <a href="#" class="navigation__item navigation__item--small-text">
+                                <img class="navigation__icon" src="images/icons/ICON%20TWITTER.png" alt="icon">
+                                TWITEER
+                            </a>
+                            <a href="#" class="navigation__item navigation__item--small-text">
+                                <img class="navigation__icon"
+                                     src="images/icons/ICON%20INSTAGRAM.png" alt="icon">
+                                INSTAGRAM
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page__card">
+            <div class="page__container">
+            <div class="page__holder-card">
+                <div class="page__box-card">
+                    <h3 class="mt_102 mb_42">Tabs with Icons on Card</h3>
+                    <div class="card">
+                        <div class="card__menu">
+                            <a class="card__menu-item" href="">
+                                <img class="card__menu-icon" src="images/icons/card-icon-head.png" alt="icon">
+                                PROFILE
+                            </a>
+                            <a class="card__menu-item" href="">
+                                <img class="card__menu-icon" src="images/icons/card-icon-message.png" alt="icon">
+                                MESSAGES
+                            </a>
+                            <a class="card__menu-item" href="">
+                                <img class="card__menu-icon" src="images/icons/card-icon-settings.png" alt="icon">
+                                SETTINGS
+                            </a>
+
+                        </div>
+                        <div class="card__content"> I will be the leader of a company that ends up being worth billions of dollars, because I
+                            got the answers. I understand culture. I am the nucleus. I think that’s a responsibility
+                            that I have, to push possibilities, to show people, this is the level that things could be
+                            at. I think that’s a responsibility that I have, to push possibilities, to show people, this is
+                            the level that things could be at. </div>
+                    </div>
+                </div>
+                <div class="page__box-card">
+                    <h3 class="mt_102 mb_42">Tabs on Plain Card</h3>
+                    <div class="card">
+                        <div class="card__menu card__menu--no-icons">
+                            <a class="card__menu-item card__menu-item--no-icons" href="">
+                                HOME
+                            </a>
+                            <a class="card__menu-item card__menu-item--no-icons" href="">
+                                UPDATES
+                            </a>
+                            <a class="card__menu-item card__menu-item--no-icons" href="">
+                                HYSTORY
+                            </a>
+
+                        </div>
+                        <div class="card__content card__content--transparent"> I will be the leader of a company that ends up being worth billions of dollars, because I
+                            got the answers. I understand culture. I am the nucleus. I think that’s a responsibility
+                            that I have, to push possibilities, to show people, this is the level that things could be
+                            at. I think that’s a responsibility that I have, to push possibilities, to show people, this is
+                            the level that things could be at. </div>
+                    </div>
+                </div>
+
+
+            </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

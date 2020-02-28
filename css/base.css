@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    word-wrap: break-word;
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+}
+
+@font-face {
+    src: url("../fonts/roboto/roboto-regular.woff"), url("../fonts/roboto/roboto-regular.woff2");
+    font-family: roboto;
+}
+
+@font-face {
+    src: url("../fonts/roboto/Roboto-Light.woff"), url("../fonts/roboto/Roboto-Light.woff2");
+    font-family: roboto-light;
+}
+
+h3 {
+    font-family: roboto-light,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 29px;
+    line-height: 34px;
+    color: #3C4858;
+    margin: 0;
+}
+
+.inline-title {
+    display: inline-block;
+}
+
+

@@ -1,0 +1,114 @@
+.button-title {
+    font-family: roboto-light,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 29px;
+    line-height: 34px;
+    color: #3C4858;
+    margin: 0;
+}
+
+.button__specifications {
+
+}
+
+.button__specifications-title {
+    font-family: roboto-light,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #777777;
+    margin: 0;
+    padding: 9px 0 27px 0;
+}
+
+
+
+.button {
+    font-family: roboto,sans-serif;
+    padding: 13px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    background-color:#999999;
+    font-size: 12px;
+    line-height: 14px;
+
+
+}
+
+
+
+.button--primary {
+    background: #9C27B4;
+    box-shadow: 0 2px 2px rgba(156, 39, 180, 0.2);
+}
+
+.button--success {
+    background: #4CAF50;
+    box-shadow: 0 2px 2px rgba(76, 175, 80, 0.2);
+}
+
+.button--round {
+    border-radius: 20px;
+}
+
+.button--text-icon {
+    background: url("../../images/icons/heart-2.png") no-repeat center left 25px #9C27B4;
+    padding: 13px 34px 13px 45px;
+}
+
+.button--only-icon {
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    background: #9C27B0;
+    box-shadow: 0 2px 2px rgba(156, 39, 176, 0.2);
+    border-radius: 30px;
+}
+
+.button-icon {
+    width: 17px;
+}
+
+.button--transparent {
+    background: transparent;
+    color: #9C27B0;
+}
+
+.button--x-small {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 6px 15px;
+}
+
+.button--small {
+    font-size: 11px;
+    line-height: 13px;
+    padding: 7px 20px;
+}
+
+.button--large {
+    padding: 18px 36px;
+}
+
+.button--info {
+    background: #03A9F4
+}
+
+.button--warning {
+    background: #FBC02D;
+}
+
+.button--danger {
+    background: #F44336;
+}
+
+
+
+
+
+
+
