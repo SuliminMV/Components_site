@@ -1,10 +1,10 @@
-.input-control{
+.control{
     display: flex;
     position: relative;
 }
 
 
-.input-control__item {
+.control__item {
     width: 100%;
     border: none;
     outline: none;
@@ -18,7 +18,7 @@
 }
 
 
-.input-control__item::placeholder {
+.control__item::placeholder {
     font-family: roboto,sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -27,7 +27,7 @@
     color: #999999;
 }
 
-.input-control__success {
+.control__success {
     font-family: roboto,sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -39,7 +39,7 @@
     visibility: hidden;
 }
 
-.input-control__error {
+.control__error {
     font-family: roboto,sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -52,26 +52,26 @@
 
 }
 
-.input-control__item--required:valid {
+.control__item--required:valid {
     background: url("../../images/icons/input-valid-2.png") no-repeat right center/contain;
  }
-.input-control__item--required:invalid {
+.control__item--required:invalid {
     background: url("../../images/icons/input-invalid-2.png") no-repeat right center/contain;
 }
 
-.input-control__item--required:valid + .input-control__success {
+.control__item--required:valid + .control__success {
     visibility: visible;
 }
-.input-control__item--required:invalid + .input-control__error {
+.control__item--required:invalid + .control__error {
     visibility: visible;
 
 }
 
-.input-control__label {
+.control__label {
     padding: 0 10px 0 15px;
 
 }
-.input-control__icon {
+.control__icon {
     width: 18px;
 }
 

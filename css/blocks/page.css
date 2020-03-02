@@ -68,11 +68,10 @@
 
 }
 
-.page__holder-input {
+.page__holder-control {
     width: 25%;
     padding-right: 33px;
-    /*display: flex;*/
-    /*flex-direction: column;*/
+
 }
 
 
