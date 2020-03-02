@@ -1,0 +1,19 @@
+.logo {
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+
+}
+.logo__img {
+    margin-right: 10px;
+    width: 50px;
+}
+
+.logo__text {
+    font-family: roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}

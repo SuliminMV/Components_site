@@ -1,0 +1,79 @@
+.navigation {
+    padding: 10px 0;
+}
+
+.navigation--primary {
+    background: #9C27B0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.navigation--info {
+    background: #03A9F4;
+}
+.navigation--success {
+    background: #4CAF50;
+}
+
+.navigation--warning {
+    background: #FBC02D;
+}
+
+.navigation--danger {
+    background: #F44336;
+}
+
+.navigation--transparent {
+    background: transparent;
+}
+
+.navigation__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__text {
+    text-decoration: none;
+    font-family: roboto-light,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.navigation__menu {
+    display: flex;
+    align-items: center;
+}
+.navigation__item {
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: roboto-light,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.navigation__item--small-text {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.navigation__item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+
+.navigation__icon {
+    margin-right: 5px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.navigation__icon--google {
+    width: 26px;
+}
