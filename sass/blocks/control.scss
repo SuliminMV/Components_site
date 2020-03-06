@@ -1,0 +1,92 @@
+.control{
+    display: flex;
+    position: relative;
+}
+
+
+.control__item {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #999999;
+    font-family: roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555555;
+}
+
+
+.control__item::placeholder {
+    font-family: roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+}
+
+.control__success {
+    font-family: roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4CAF50;
+    position: absolute;
+    bottom: 30px;
+    visibility: hidden;
+}
+
+.control__error {
+    font-family: roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F44336;
+    position: absolute;
+    bottom: 30px;
+    visibility: hidden;
+
+}
+
+.control__item--required:valid {
+    background: url("../../images/icons/input-valid-2.png") no-repeat right center/contain;
+ }
+.control__item--required:invalid {
+    background: url("../../images/icons/input-invalid-2.png") no-repeat right center/contain;
+}
+
+.control__item--required:valid + .control__success {
+    visibility: visible;
+}
+.control__item--required:invalid + .control__error {
+    visibility: visible;
+
+}
+
+.control__label {
+    padding: 0 10px 0 15px;
+
+}
+.control__icon {
+    width: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+.input-slider {
+  display: flex;
+  flex-direction: column;
+
+}
+.slider__title {
+  font-family: roboto-light,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 29px;
+  line-height: 34px;
+  color: #3C4858;
+}
+
+input[type=range].input-slider__item {
+  -webkit-appearance: none;
+  outline: none;
+  width: 267px;
+  border-radius: 2px;
+  height: 1px;
+  background-color: #9C27B0;
+
+}
+
+input[type=range].input-slider__item::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #FFFFFF;
+  border: 1px solid #9C27B0;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+}
