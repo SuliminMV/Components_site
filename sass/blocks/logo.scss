@@ -3,10 +3,15 @@
     align-items: flex-end;
     text-decoration: none;
 
+    @media #{$screen-xs} {
+        padding-bottom: 10px;
+    }
+
 }
 .logo__img {
     margin-right: 10px;
     width: 50px;
+
 }
 
 .logo__text {
@@ -16,4 +21,9 @@
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+
+    @media #{$screen-sm} {
+        font-size: $font-size-normal;
+    }
+
 }

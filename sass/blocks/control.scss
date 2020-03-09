@@ -1,6 +1,11 @@
 .control{
     display: flex;
     position: relative;
+
+    @media #{$screen-xs} {
+      display: inline-flex;
+        margin-bottom: 40px;
+    }
 }
 
 
@@ -15,16 +20,27 @@
     font-size: 14px;
     line-height: 16px;
     color: #555555;
-}
 
+    @media #{$screen-md} {
+        font-size: 10px;
+    }
+    @media #{$screen-xs} {
+        width: auto;
+    }
 
-.control__item::placeholder {
-    font-family: roboto,sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    color: #999999;
+    &::placeholder {
+        font-family: roboto,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #999999;
+
+        @media #{$screen-md} {
+            font-size: 8px;
+        }
+    }
+
 }
 
 .control__success {
@@ -70,13 +86,24 @@
 .control__label {
     padding: 0 10px 0 15px;
 
+    @media #{$screen-xs} {
+        padding: 0 5px 0 0;
+    }
+
 }
 .control__icon {
     width: 18px;
 }
 
 
-
+//.control__item::placeholder {
+//    font-family: roboto,sans-serif;
+//    font-style: normal;
+//    font-weight: normal;
+//    font-size: 14px;
+//    line-height: 16px;
+//    color: #999999;
+//}
 
 
 

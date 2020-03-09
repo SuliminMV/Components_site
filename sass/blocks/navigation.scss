@@ -40,6 +40,10 @@
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+
+    @media #{$screen-sm} {
+        font-size: 14px;
+    }
 }
 
 .navigation__menu {
@@ -55,17 +59,27 @@
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
+
+    @media #{$screen-sm} {
+        font-size: 10px;
+    }
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 3px;
+    }
 }
 
 .navigation__item--small-text {
     font-size: 12px;
     line-height: 14px;
+
+    @media #{$screen-sm} {
+        font-size: 10px;
+    }
 }
 
-.navigation__item:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 3px;
-}
+
 
 
 .navigation__icon {
@@ -77,3 +91,8 @@
 .navigation__icon--google {
     width: 26px;
 }
+
+//.navigation__item:hover {
+//    background: rgba(255, 255, 255, 0.1);
+//    border-radius: 3px;
+//}

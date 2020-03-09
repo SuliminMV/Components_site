@@ -28,10 +28,20 @@ h3 {
     line-height: 34px;
     color: #3C4858;
     margin: 0;
+
+    @media #{$screen-md} {
+        font-size: 25px;
+    }
+
+    @media #{$screen-sm} {
+        font-size: 20px;
+    }
+
+    @media #{$screen-xs} {
+        text-align: center;
+    }
 }
 
-.inline-title {
-    display: inline-block;
-}
+
 
 

@@ -29,6 +29,14 @@
     background-color:#999999;
     font-size: 12px;
     line-height: 14px;
+
+    @media #{$screen-md} {
+        margin: 6px;
+    }
+
+    @media #{$screen-sm} {
+        font-size: 10px;
+    }
 }
 
 

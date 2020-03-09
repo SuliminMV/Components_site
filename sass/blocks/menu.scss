@@ -6,6 +6,11 @@
     padding: 10px 0 10px 0;
     justify-content: flex-start;
     align-items: center;
+
+    @media #{$screen-sm} {
+        margin-right: 0;
+
+    }
 }
 
 .menu--blue {
@@ -16,9 +21,7 @@
     align-items: center;
 }
 
-.menu--half {
-    width: 50%;
-}
+
 
 .menu__box {
     display: flex;
@@ -52,27 +55,36 @@
     color: #FFFFFF;
     background: transparent;
     padding: 18px 16px;
+
+    @media #{$screen-sm} {
+        font-size: 10px;
+    }
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
 }
 
 .menu__item--icon {
     padding: 0;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
 }
 
 
 
-.menu__item:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
 
-.menu__item--icon:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
 
 .menu__item--first {
      font-size: 18px;
-     line-height: 21px;
+     line-height: 16px;
      padding: 18px 16px;
 
+    @media #{$screen-sm} {
+        font-size: 14px;
+    }
  }
 
 
@@ -87,11 +99,12 @@
     -webkit-appearance: none;
     background: url(../../images/select-arrow.png) no-repeat center transparent;
     padding-left: 10px;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
 }
 
-.menu__item--select-icon:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
 
 select::-ms-expand {
     display: none;
@@ -106,3 +119,15 @@ select::-ms-expand {
 .menu__img {
     width: 20px;
 }
+
+//.menu__item--select-icon:hover {
+//    background: rgba(255, 255, 255, 0.1);
+//}
+
+//.menu__item:hover {
+//    background: rgba(255, 255, 255, 0.1);
+//}
+
+//.menu__item--icon:hover {
+//     background: rgba(255, 255, 255, 0.1);
+// }
